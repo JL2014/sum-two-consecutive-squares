@@ -178,3 +178,4 @@ If we sum $T_{4n-1}$ and $T_{4n}$ (which are consecutive even triangular numbers
 * For $n=3$: $T_{11} + T_{12} = 66 + 78 = 144 \implies 16(3²)$
 
 This progression ($16, 64, 144, 256 \dots$) maps directly to the **OEIS A016802** sequence, further demonstrating the deep, infinite arithmetic ties between sums of squares and triangular geometries.
+
