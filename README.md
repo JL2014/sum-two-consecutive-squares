@@ -45,7 +45,7 @@ We observe the terms of A000217 sequence.
 
 ### Connection to the Brahmagupta-Fibonacci identity (first column)
 
-The first column consists of terms that always ending by 5, meaning they are all multiples of 5 (such as 5, 25, 85, 145, 265, 365, \dots).
+The first column consists of terms that always ending by 5, meaning they are all multiples of 5 (such as $5, 25, 85, 145, 265, 365, \dots$).
 
 According to the **Brahmagupta-Fibonacci identity**, the product —or perfect quotient— of two sums of two squares is itself a sum of two squares.<br>
 Since 5 can be written as $1^2 + 2^2$, it follows a property: **dividing any number from this first column by 5 will always yield a quotient that is also a sum of two squares**.
@@ -68,12 +68,12 @@ A corollary of Fermat's theorem states that if a number can be expressed as the 
 
 Then for any sum of two consecutive squares ending in 13 (where $z$ is a triangular number from the A000217 sequence), **none of its prime factors will ever be congruent to 3 modulo 4** (i.e., of the form $4k + 3$).
 
-This guarantees that these numbers (if not primes) will never be divisible by ([non Pythagorean](https://oeis.org/A002145)) primes such as 3, 7, 11, 19, 23, \dots<br>
-All of their prime factors are strictly of the form $4k + 1$ ([Pythagorean primes](https://oeis.org/A002144) such as 5, 13, 17, 29, 37, \dots).
+This guarantees that these numbers (if not primes) will never be divisible by ([non Pythagorean](https://oeis.org/A002145)) primes such as $3, 7, 11, 19, 23, \dots$<br>
+All of their prime factors are strictly of the form $4k + 1$ ([Pythagorean primes](https://oeis.org/A002144) such as $5, 13, 17, 29, 37, \dots$).
 
 ### Properties of the second column (numbers ending by 1)
 
-If we isolate the even-line terms from the second column that do not ending by 13 (such as 41, 181, 421, 761, 1201, \dots), we can observe a predictable growth.<br>
+If we isolate the even-line terms from the second column that do not ending by 13 (such as $41, 181, 421, 761, 1201, \dots$), we can observe a predictable growth.<br>
 The values of $x$ for these terms are $4, 9, 14, 19, \dots$, which can be written as $x = 5k + 4$.
 
 By calculating the difference between consecutive terms in this sub-sequence, we find that the gap grows by exactly $100n + 40$ (where $n$ is the step index: $140, 240, 340, 440, \dots$). 
