@@ -98,7 +98,7 @@ This $100k + 60$ progression creates a mirror image of the second column's prope
 2. **Triangular number formula:** we can express this sequence using the $(k-1)$-th triangular number ($T_{k-1}$):
    $s_k = 100 T_{k-1} + 60k + 1$
 
-### Prime numbers of s and Bunyakovsky's conjecture
+### Prime numbers of s values and Bunyakovsky's conjecture
 
 If we expand our initial equation $s = x^2 + (x+1)^2$, we obtain the quadratic polynomial $s = 2x^2 + 2x + 1$. 
 
