@@ -3,7 +3,7 @@ Pull requests welcome. Don't hesitate to [start a conversation in Discussions](h
 
 # Sum of the squares of two consecutive numbers
 
-See [Fermat's theorem on sums of two squares](https://en.wikipedia.org/wiki/Fermat%27s_theorem_on_sums_of_two_squares), but here for specific case with x and y consecutive.<br>
+See [Fermat's theorem on sums of two squares](https://en.wikipedia.org/wiki/Fermat%27s_theorem_on_sums_of_two_squares), but here for specific case with x and y are consecutive.<br>
 See [this conversation](https://groups.google.com/g/seqfan/c/Kq_n-Jj-qxk) on SeqFan mailing list.
 
 For any $x > 0$ and $y = x + 1$, $s = x² + y²$.
