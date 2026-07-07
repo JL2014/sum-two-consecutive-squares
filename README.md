@@ -125,7 +125,8 @@ This $100k + 60$ progression creates a mirror image of the second column's prope
 
 ### Prime numbers of s values and [Bunyakovsky's conjecture](https://en.wikipedia.org/wiki/Bunyakovsky_conjecture)
 
-If we expand our initial equation $s = x^2 + (x+1)^2$, we obtain the quadratic polynomial $s = 2x^2 + 2x + 1$. 
+If we expand our initial equation $s = x^2 + (x+1)^2$, we obtain the quadratic polynomial $s = 2x^2 + 2x + 1$.<br>
+*Note: a known property for this polynomial is 8s − 4 = (4x + 2)², then s is the sum of two consecutive squares if and only if 8s − 4 is a perfect square.*
 
 By factoring it, we can rewrite the equation as $s = 2x(x+1) + 1$, or simply **$s = 2xy + 1$** (since $y = x+1$).<br>
 This factored form provides proof that $s$ is **always an odd number** ($2 \times \text{integer} + 1$), meaning 2 will never be a prime factor in this sequence.
