@@ -34,7 +34,7 @@ We can observe :
 * second column :
   * odd lines with $s$ ending by 13 (at position $5j + 2$)
   * even lines with $s$ ending by 1 (with gap of $100n + 40$ between them), a cycle ending by 41, 81, 21, 61, 01
-* third column : $s$ ending by 1
+* third column : $s$ ending by 1 (with gap of $100n + 60$ between them), a cycle ending by 61, 21, 81, 41, 01
 
 For $s$ ending by 13, if we use this form : $s = 100z + 13$, then the sequence of $z$ is :<br>
 ```
