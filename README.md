@@ -31,7 +31,7 @@ Start with $x = 1$, then the first fifty terms of $s$, arranged in this way :
 ```
 
 We can observe :
-* first column : $s$ multiple of 5
+* first column : $s$ multiple of 5, [Brahmagupta–Fibonacci identity](https://en.wikipedia.org/wiki/Brahmagupta%E2%80%93Fibonacci_identity)
 * second column : odd lines with $s$ ending by 13 (at position 5n + 2), even lines with $s$ ending by 1
 * third column : $s$ ending by 1
 
