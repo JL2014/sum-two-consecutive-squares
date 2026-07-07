@@ -33,7 +33,7 @@ Start with $x = 1$, then the first fifty terms of $s$, arranged in this way :
 We can observe :
 * first column : $s$ multiple of 5, [Brahmagupta–Fibonacci identity](https://en.wikipedia.org/wiki/Brahmagupta%E2%80%93Fibonacci_identity)
 * second column :
-  * odd lines with $s$ ending by 13 (at position $5k + 2$)
+  * odd lines with $s$ ending by 13 (at position $5j + 2$)
   * even lines with $s$ ending by 1 (with gap of $100n + 40$ between them), a cycle ending by 41, 81, 21, 61, 01
 * third column : $s$ ending by 1
 
@@ -74,6 +74,7 @@ All of their prime factors are strictly of the form $4k + 1$ ([Pythagorean prime
 ### Properties of the second column (numbers ending by 1)
 
 If we isolate the even-line terms from the second column that do not ending by 13 (such as $41, 181, 421, 761, 1201, \dots$), we can observe a predictable growth.<br>
+The sum becomes $s_k = 50k^2 + 90k + 41$.
 The values of $x$ for these terms are $4, 9, 14, 19, \dots$, which can be written as $x = 5k + 4$.
 
 By calculating the difference between consecutive terms in this sub-sequence, we find that the gap grows by exactly $100n + 40$ (where $n$ is the step index: $140, 240, 340, 440, \dots$). 
@@ -82,11 +83,12 @@ This $100n + 40$ gap leads to two deductions:
 * **The 2-digit cycle:** Because the difference adds exactly $40$ to the tens and units digits (modulo 100) at each step, the last two digits of these numbers follow an infinite, repeating 5-step cycle:
    **41, 81, 21, 61, 01** (and then back to 41)
 * **Triangular number formula:** just like the terms ending in 13 can be expressed using triangular numbers ($100 T_n + 13$), we can express this sub-sequence using the $k$-th triangular number ($T_k$) and the term index ($k$):
-   $s = 100 T_k + 40k + 41$
+   $s_k = 100 T_k + 40k + 41$
 
 ### Properties of the third column (numbers ending by 1)
 
-The third column consists of terms where $x$ is a multiple of 5 ($x = 5, 10, 15, 20 \dots$). If we write $x = 5k$ (for $k \ge 1$), the sum becomes $s = 50k^2 + 10k + 1$.
+The third column consists of terms where $x$ is a multiple of 5 ($x = 5, 10, 15, 20 \dots$).<br>
+If we write $x = 5k$ (for $k \ge 1$), the sum becomes $s_k = 50k^2 + 10k + 1$.
 
 By analyzing the difference between consecutive terms in this column ($61, 221, 481, 841, 1301, \dots$), we find that the gap grows by exactly $100k + 60$ (the gaps being $160, 260, 360, 460 \dots$). 
 
@@ -95,4 +97,4 @@ This $100k + 60$ progression creates a mirror image of the second column's prope
 * **The reversed 2-digit cycle:** because the difference adds $60$ to the tens and units digits (modulo 100) at each step, the last two digits follow an infinite 5-step cycle that is the **exact reverse** of the second column's cycle:
    **61, 21, 81, 41, 01** (and then back to 61)
 2. **Triangular number formula:** we can express this sequence using the $(k-1)$-th triangular number ($T_{k-1}$):
-   $s = 100 T_{k-1} + 60k + 1$
+   $s_k = 100 T_{k-1} + 60k + 1$
