@@ -10,6 +10,7 @@ For any $x > 0$ and $y = x + 1$, $s = x² + y²$.
 
 Start with $x = 1$, then the first fifty terms of $s$, arranged in this way :
 ```
+                      0² +  1² =    1,
   1² +  2² =    5,    2² +  3² =   13,
   3² +  4² =   25,    4² +  5² =   41,   5² +  6² =   61,
   6² +  7² =   85,    7² +  8² =  113,
@@ -179,3 +180,22 @@ If we sum $T_{4n-1}$ and $T_{4n}$ (which are consecutive even triangular numbers
 
 This progression ($16, 64, 144, 256 \dots$) maps directly to the **OEIS A016802** sequence, further demonstrating the deep, infinite arithmetic ties between sums of squares and triangular geometries.
 
+### Connection to perfect squares, Pythagorean triples, and the negative Pell equation
+
+Occasionally, the sum of two consecutive squares results in a perfect square ($s = y^2$). Looking at the sequence, this happens at specific values of $x$:
+* $x=0 \implies 0^2 + 1^2 = 1^2 \implies s=1$
+* $x=3 \implies 3^2 + 4^2 = 5^2 \implies s=25$
+* $x=20 \implies 20^2 + 21^2 = 29^2 \implies s=841$
+* $x=119 \implies 119^2 + 120^2 = 169^2 \implies s=28561$
+Note: the sequence $0,3,20,119,696,\dots$ refers to the [OEIS A001652 sequence](https://oeis.org/A001652).
+
+When this occurs, the equation $x² + (x+1)²= y²$ geometrically describes a **Pythagorean triple where the legs are consecutive integers** (e.g., the famous 3-4-5 right triangle). 
+
+Through algebraic manipulation, we can rewrite our base equation $2x² + 2x + 1 = y²$ by multiplying by 2 and completing the square:
+$$(2x + 1)² + 1 = 2y²$$
+$$(2x + 1)² - 2y² = -1$$
+
+By substituting $A = 2x + 1$ and $B = y$, we arrive at **$A^2 - 2B^2 = -1$**. 
+
+This is the classic **negative Pell's equation**. It proves that the values of $x$ ($0, 3, 20, 119, \dots$) and the square roots of $s$ (1, 5, 29, 169...) are not random; they are governed by the sequence of Pell numbers.<br>
+Because Pell's equation solutions grow exponentially based on the silver ratio ($1 + \sqrt{2}$), these perfect squares become rare as the sequence progresses, yet there are infinitely many of them.
