@@ -40,7 +40,7 @@ For $s$ ending by 13, if we use this form : $s = 100z + 13$, then the sequence o
 ```
    0, 1, 3, 6, 10, 15, 21, 28, 36, 45, 55, 66, 78, 91, 105, 120, 136, 153, 171, 190, ...
 ```
-We observe the terms of A000217 sequence.
+We observe the terms of [A000217 sequence](https://oeis.org/A000217).
 
 ### Connection to the Brahmagupta-Fibonacci identity (first column)
 
@@ -65,7 +65,7 @@ This aligns with the necessary condition in **Fermat's theorem on sums of two sq
 Because $x$ and $y$ are consecutive integers ($y = x + 1$), they are strictly coprime ($\gcd(x, y) = 1$).<br>
 A corollary of Fermat's theorem states that if a number can be expressed as the sum of two coprime squares, **every single odd prime factor of that number must be congruent to 1 modulo 4** (i.e., of the form $4k + 1$).
 
-Then for any sum of two consecutive squares ending in 13 (where $z$ is a triangular number from the [A000217 sequence](https://oeis.org/A000217)), **none of its prime factors will ever be congruent to 3 modulo 4** (i.e., of the form $4k + 3$).
+Then for any sum of two consecutive squares ending in 13 (where $z$ is a triangular number from the A000217 sequence, **none of its prime factors will ever be congruent to 3 modulo 4** (i.e., of the form $4k + 3$).
 
 This guarantees that these numbers (if not primes) will never be divisible by [non Pythagorean](https://oeis.org/A002145) primes (such as $3, 7, 11, 19, 23, \dots$).<br>
 All of their <u>prime factors</u> are strictly of the form $4k + 1$ as [Pythagorean primes](https://oeis.org/A002144) (such as $5, 13, 17, 29, 37, \dots$).
