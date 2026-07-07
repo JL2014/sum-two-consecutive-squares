@@ -82,7 +82,7 @@ This regularity is a direct consequence of the Brahmagupta-Fibonacci identity ap
 
 ### Connection to Fermat's theorem on sums of two squares (second column, ending by 13)
 
-By observing the equation $s = 100z + 13$, we can deduce a mathematical property regarding the prime factors of these specific numbers.
+By observing the equation $s = 100z + 13$, we can deduce a property regarding the prime factors of these specific numbers.
 
 First, since $s = 100z + 13$, it follows that $s \equiv 13 \pmod{100}$, which simplifies to $s \equiv 1 \pmod 4$.<br>
 This aligns with the necessary condition in **Fermat's theorem on sums of two squares**.
