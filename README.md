@@ -43,7 +43,7 @@ We observe the terms of A000217 sequence.
 
 ### Connection to the Brahmagupta-Fibonacci identity (first column)
 
-The first column consists of terms that always end in 5, meaning they are all multiples of 5 (e.g., 5, 25, 85, 145, 265, 365, ...).
+The first column consists of terms that always ending by 5, meaning they are all multiples of 5 (such as 5, 25, 85, 145, 265, 365, ...).
 
 According to the **Brahmagupta-Fibonacci identity**, the product —or perfect quotient— of two sums of two squares is itself a sum of two squares.<br>
 Since 5 can be written as $1^2 + 2^2$, it follows a property: **dividing any number from this first column by 5 will always yield a quotient that is also a sum of two squares**.
