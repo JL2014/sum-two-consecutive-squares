@@ -34,7 +34,7 @@ We can observe :
 * first column : $s$ multiple of 5, [Brahmagupta–Fibonacci identity](https://en.wikipedia.org/wiki/Brahmagupta%E2%80%93Fibonacci_identity)
 * second column :
   * odd lines with $s$ ending by 13 (at position 5n + 2)
-  * even lines with $s$ ending by 1 (with distance of 100n + 40), a cycle ending by 41, 81, 21, 61, 01
+  * even lines with $s$ ending by 1 (with gap of 100k + 40), a cycle ending by 41, 81, 21, 61, 01
 * third column : $s$ ending by 1
 
 For $s$ ending by 13, if we use this form : $s = 100z + 13$, then the sequence of $z$ is :<br>
@@ -45,7 +45,7 @@ We observe the terms of A000217 sequence.
 
 ### Connection to the Brahmagupta-Fibonacci identity (first column)
 
-The first column consists of terms that always ending by 5, meaning they are all multiples of 5 (such as 5, 25, 85, 145, 265, 365, ...).
+The first column consists of terms that always ending by 5, meaning they are all multiples of 5 (such as 5, 25, 85, 145, 265, 365, \dots).
 
 According to the **Brahmagupta-Fibonacci identity**, the product —or perfect quotient— of two sums of two squares is itself a sum of two squares.<br>
 Since 5 can be written as $1^2 + 2^2$, it follows a property: **dividing any number from this first column by 5 will always yield a quotient that is also a sum of two squares**.
@@ -56,7 +56,7 @@ For example:
 * $265 / 5 = 53 \implies 2^2 + 7^2$
 * $365 / 5 = 73 \implies 3^2 + 8^2$
 
-### Connection to Fermat's theorem on sums of two squares
+### Connection to Fermat's theorem on sums of two squares (second column, ending by 13)
 
 By observing the equation $s = 100z + 13$, we can deduce a mathematical property regarding the prime factors of these specific numbers.
 
@@ -68,5 +68,18 @@ A corollary of Fermat's theorem states that if a number can be expressed as the 
 
 Then for any sum of two consecutive squares ending in 13 (where $z$ is a triangular number from the A000217 sequence), **none of its prime factors will ever be congruent to 3 modulo 4** (i.e., of the form $4k + 3$).
 
-This guarantees that these numbers (if not primes) will never be divisible by ([non Pythagorean](https://oeis.org/A002145)) primes such as 3, 7, 11, 19, 23, ...<br>
-All of their prime factors are strictly of the form $4k + 1$ ([Pythagorean primes](https://oeis.org/A002144) such as 5, 13, 17, 29, 37, ...).
+This guarantees that these numbers (if not primes) will never be divisible by ([non Pythagorean](https://oeis.org/A002145)) primes such as 3, 7, 11, 19, 23, \dots<br>
+All of their prime factors are strictly of the form $4k + 1$ ([Pythagorean primes](https://oeis.org/A002144) such as 5, 13, 17, 29, 37, \dots).
+
+### Properties of the second column (numbers ending by 1)
+
+If we isolate the even-line terms from the second column that do not ending by 13 (such as 41, 181, 421, 761, 1201, \dots), we can observe a predictable growth.<br>
+The values of $x$ for these terms are $4, 9, 14, 19, \dots$, which can be written as $x = 5k + 4$.
+
+By calculating the difference between consecutive terms in this sub-sequence, we find that the gap grows by exactly $100n + 40$ (where $n$ is the step index: $140, 240, 340, 440, \dots$). 
+
+This $100n + 40$ gap leads to two deductions:
+* **The 2-digit cycle:** Because the difference adds exactly $40$ to the tens and units digits (modulo 100) at each step, the last two digits of these numbers follow an infinite, repeating 5-step cycle:
+   **41, 81, 21, 61, 01** (and then back to 41)
+* **Triangular number formula:** just like the terms ending in 13 can be expressed using triangular numbers ($100 T_n + 13$), we can express this sub-sequence using the $k$-th triangular number ($T_k$) and the term index ($k$):
+   $s = 100 T_k + 40k + 41$
