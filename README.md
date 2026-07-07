@@ -52,5 +52,5 @@ Because $x$ and $y$ are consecutive integers ($y = x + 1$), they are strictly co
 A corollary of Fermat's theorem states that if a number can be expressed as the sum of two coprime squares, **every single odd prime factor of that number must be congruent to 1 modulo 4** (i.e., of the form $4k + 1$).
 
 Then for any sum of two consecutive squares ending in 13 (where $z$ is a triangular number from the A000217 sequence), **none of its prime factors will ever be congruent to 3 modulo 4** (i.e., of the form $4k + 3$).<br>
-This guarantees that these numbers (if not primes) will never be divisible by primes such as 3, 7, 11, 19, 23, ...<br>
-All of their prime factors are strictly of the form $4k + 1$ (e.g., 5, 13, 17, 29, 89, ...).
+This guarantees that these numbers (if not primes) will never be divisible by (non Pythagorean) primes such as 3, 7, 11, 19, 23, ...<br>
+All of their prime factors are strictly of the form $4k + 1$ (Pythagorean primes, e.g., 5, 13, 17, 29, 89, ...).
