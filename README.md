@@ -164,7 +164,7 @@ For any integer $k$, adding these two distinct sums of two consecutive squares g
 
 $$(5k-3)² + (5k-2)² + (5k+2)² + (5k+3)² = 100k² + 26$$
 
-*(For example, with $k=1$, we evaluate the bases $x=2$ and $x=7$. Their respective sums of consecutive squares are $2²+3²=13$ and $7²+8²=113$. Adding them together gives $13 + 113 = 126$, which matches the formula $100(1²) + 26$.)*
+(For example, with $k=1$, we evaluate the bases $x=2$ and $x=7$. Their respective sums of consecutive squares are $2²+3²=13$ and $7²+8²=113$. Adding them together gives $13 + 113 = 126$, which matches the formula $100(1²) + 26$)
 
 #### 2. Connection to [OEIS A016802 sequence](https://oeis.org/A016802)
 As a natural extension of how squares and triangular numbers interact, there is a strict rule regarding specific pairs of even triangular numbers.<br>
