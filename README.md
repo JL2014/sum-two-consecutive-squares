@@ -83,3 +83,16 @@ This $100n + 40$ gap leads to two deductions:
    **41, 81, 21, 61, 01** (and then back to 41)
 * **Triangular number formula:** just like the terms ending in 13 can be expressed using triangular numbers ($100 T_n + 13$), we can express this sub-sequence using the $k$-th triangular number ($T_k$) and the term index ($k$):
    $s = 100 T_k + 40k + 41$
+
+### Properties of the third column (numbers ending by 1)
+
+The third column consists of terms where $x$ is a multiple of 5 ($x = 5, 10, 15, 20 \dots$). If we write $x = 5k$ (for $k \ge 1$), the sum becomes $s = 50k^2 + 10k + 1$.
+
+By analyzing the difference between consecutive terms in this column ($61, 221, 481, 841, 1301, \dots$), we find that the gap grows by exactly $100k + 60$ (the gaps being $160, 260, 360, 460 \dots$). 
+
+This $100k + 60$ progression creates a mirror image of the second column's properties:
+
+* **The reversed 2-digit cycle:** because the difference adds $60$ to the tens and units digits (modulo 100) at each step, the last two digits follow an infinite 5-step cycle that is the **exact reverse** of the second column's cycle:
+   **61, 21, 81, 41, 01** (and then back to 61)
+2. **Triangular number formula:** we can express this sequence using the $(k-1)$-th triangular number ($T_{k-1}$):
+   $s = 100 T_{k-1} + 60k + 1$
