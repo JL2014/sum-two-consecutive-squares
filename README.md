@@ -142,7 +142,7 @@ While we have already established how our specific sums of squares generate tria
 The relationship flows in both directions: just as our sums are linked to triangular numbers, **the sum of any two consecutive triangular numbers forms a perfect square** ($T_{n} + T_{n-1} = n^2$). 
 By combining these geometric properties, we can extract two new observations about our sequences:
 
-#### 1. The $100k^2 + 26$ Identity
+#### 1. The $100k^2 + 26$ identity
 If we group specific pairs of sums from our sequence—specifically, the sums of consecutive squares originating from base numbers symmetrically offset around multiples of 5—their combined total yields a clean equation.<br>
 For any integer $k$, adding these two distinct sums of two consecutive squares gives:
 
