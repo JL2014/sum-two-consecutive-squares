@@ -1,5 +1,5 @@
 # Contributing
-Pull requests welcome. Don' hesitate to [start a conversation in Discussions](https://github.com/JL2014/sum-two-consecutive-squares/discussions/new/choose).
+Pull requests welcome. Don't hesitate to [start a conversation in Discussions](https://github.com/JL2014/sum-two-consecutive-squares/discussions/new/choose).
 
 # Sum of the squares of two consecutive numbers
 
