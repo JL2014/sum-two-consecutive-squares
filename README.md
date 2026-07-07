@@ -186,7 +186,7 @@ Occasionally, the sum of two consecutive squares results in a perfect square ($s
 * $x=0 \implies 0^2 + 1^2 = 1^2 \implies s=1$
 * $x=3 \implies 3^2 + 4^2 = 5^2 \implies s=25$
 * $x=20 \implies 20^2 + 21^2 = 29^2 \implies s=841$
-* $x=119 \implies 119^2 + 120^2 = 169^2 \implies s=28561$
+* $x=119 \implies 119^2 + 120^2 = 169^2 \implies s=28561$<br>
 Note: the sequence $0,3,20,119,696,\dots$ refers to the [OEIS A001652 sequence](https://oeis.org/A001652).
 
 When this occurs, the equation $x² + (x+1)²= y²$ geometrically describes a **Pythagorean triple where the legs are consecutive integers** (e.g., the famous 3-4-5 right triangle). 
