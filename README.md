@@ -41,6 +41,19 @@ For $s$ ending by 13, if we use this form : $s = 100z + 13$, then the sequence o
 ```
 We observe the terms of A000217 sequence.
 
+### Connection to the Brahmagupta-Fibonacci identity (first column)
+
+The first column consists of terms that always end in 5, meaning they are all multiples of 5 (e.g., 5, 25, 85, 145, 265, 365, ...).
+
+According to the **Brahmagupta-Fibonacci identity**, the product —or perfect quotient— of two sums of two squares is itself a sum of two squares.<br>
+Since 5 can be written as $1^2 + 2^2$, it follows a property: **dividing any number from this first column by 5 will always yield a quotient that is also a sum of two squares**.
+
+For example:
+*  $85 / 5 = 17 \implies 1^2 + 4^2$
+* $145 / 5 = 29 \implies 2^2 + 5^2$
+* $265 / 5 = 53 \implies 2^2 + 7^2$
+* $365 / 5 = 73 \implies 3^2 + 8^2$
+
 ### Connection to Fermat's theorem on sums of two squares
 
 By observing the equation $s = 100z + 13$, we can deduce a mathematical property regarding the prime factors of these specific numbers.
