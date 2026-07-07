@@ -32,7 +32,9 @@ Start with $x = 1$, then the first fifty terms of $s$, arranged in this way :
 
 We can observe :
 * first column : $s$ multiple of 5, [Brahmagupta–Fibonacci identity](https://en.wikipedia.org/wiki/Brahmagupta%E2%80%93Fibonacci_identity)
-* second column : odd lines with $s$ ending by 13 (at position 5n + 2), even lines with $s$ ending by 1
+* second column :
+  * odd lines with $s$ ending by 13 (at position 5n + 2)
+  * even lines with $s$ ending by 1 (with distance of 100n + 40), a cycle ending by 41, 81, 21, 61, 01
 * third column : $s$ ending by 1
 
 For $s$ ending by 13, if we use this form : $s = 100z + 13$, then the sequence of $z$ is :<br>
