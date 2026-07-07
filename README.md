@@ -72,7 +72,7 @@ By tracking the resulting pairs $(x', y')$, we observe an arithmetic progression
 |16|17|545|109|3²+10²|(3, 10)|
 
 This proves that every term in the first column is linked to a specific Gaussian integer transition.<br>
-Specifically, each sum $s/5$ can be expressed as: $s/5 = k^2 + (3k+1)^2 = 10k^2 + 6k + 1$
+Specifically, each sum $s/5$ can be expressed as: $s/5 = k^2 + (3k+1)^2 = 10k^2 + 6k + 1$ (actually no existing OEIS sequence for this polynomial).
 
 This confirms that the first column is not just a collection of multiples of 5, but a structured sequence of sums of squares where the base values $(x', y')$ evolve linearly. This regularity is a direct consequence of the Brahmagupta-Fibonacci identity applied to the prime factor 5.
 
