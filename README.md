@@ -143,7 +143,7 @@ The relationship flows in both directions: just as our sums are linked to triang
 By combining these geometric properties, we can extract two new observations about our sequences:
 
 #### 1. The $100k^2 + 26$ identity
-If we group specific pairs of sums from our sequence—specifically, the sums of consecutive squares originating from base numbers symmetrically offset around multiples of 5—their combined total yields a clean equation.<br>
+If we group specific pairs of sums from our sequence —specifically, the sums of consecutive squares originating from base numbers symmetrically offset around multiples of 5— their combined total yields a clean equation.<br>
 For any integer $k$, adding these two distinct sums of two consecutive squares gives:
 
 $$(5k-3)^2 + (5k-2)^2 + (5k+2)^2 + (5k+3)^2 = 100k^2 + 26$$
