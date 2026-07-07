@@ -41,7 +41,7 @@ For $s$ ending by 13, if we use this form : $s = 100z + 13$, then the sequence o
 ```
    0, 1, 3, 6, 10, 15, 21, 28, 36, 45, 55, 66, 78, 91, 105, 120, 136, 153, 171, 190, ...
 ```
-We observe the terms of [A000217 sequence](https://oeis.org/A000217).
+We observe the terms of [OEIS A000217 sequence](https://oeis.org/A000217).
 
 ### Connection to the Brahmagupta-Fibonacci identity (first column)
 
@@ -86,7 +86,7 @@ This aligns with the necessary condition in **Fermat's theorem on sums of two sq
 Because $x$ and $y$ are consecutive integers ($y = x + 1$), they are strictly coprime ($\gcd(x, y) = 1$).<br>
 A corollary of Fermat's theorem states that if a number can be expressed as the sum of two coprime squares, **every single odd prime factor of that number must be congruent to 1 modulo 4** (i.e., of the form $4k + 1$).
 
-Then for any sum of two consecutive squares ending in 13 (where $z$ is a triangular number from the A000217 sequence, **none of its prime factors will ever be congruent to 3 modulo 4** (i.e., of the form $4k + 3$).
+Then for any sum of two consecutive squares ending by 13 (where $z$ is a triangular number from the OEIS A000217 sequence, **none of its prime factors will ever be congruent to 3 modulo 4** (i.e., of the form $4k + 3$).
 
 This guarantees that these numbers (if not primes) will never be divisible by [non Pythagorean primes](https://oeis.org/A002145) (such as $3, 7, 11, 19, 23, \dots$).<br>
 All of **the prime factors of these s** are strictly of the form $4k + 1$ as [Pythagorean primes](https://oeis.org/A002144) (such as $5, 13, 17, 29, 37, \dots$).
@@ -102,7 +102,7 @@ By calculating the difference between consecutive terms in this sub-sequence, we
 This $100n + 40$ gap leads to two deductions:
 * **The 2-digit cycle:** Because the difference adds exactly $40$ to the tens and units digits (modulo 100) at each step, the last two digits of these numbers follow an infinite, repeating 5-step cycle:
    **41, 81, 21, 61, 01** (and then back to 41)
-* **Triangular number formula:** just like the terms ending in 13 can be expressed using triangular numbers ($100 T_n + 13$), we can express this sub-sequence using the $k$-th triangular number ($T_k$) and the term index ($k$):
+* **Triangular number formula:** just like the terms ending by 13 can be expressed using triangular numbers ($100 T_n + 13$), we can express this sub-sequence using the $k$-th triangular number ($T_k$) and the term index ($k$):
    $s_k = 100 T_k + 40k + 41$
 
 ### Properties of the third column (numbers ending by 1)
@@ -133,3 +133,29 @@ This quadratic polynomial satisfies the three strict conditions of **Bunyakovsky
 
 Because it meets all these criteria, Bunyakovsky's conjecture dictates that **this sequence should generate an infinite number of primes**.<br>
 While this remains one of the unproven problems in mathematics (no one has yet been able to prove that *any* polynomial of degree 2 or higher generates infinitely many primes), the mathematical structure of $s = 2xy + 1$ strongly implies that prime numbers will never stop appearing throughout this sequence.
+
+### Combining squares and Triangular numbers (extended symmetries)
+
+The Daniel's contribution highlighted additional layers of symmetry connecting this sequence to the broader world of triangular numbers.<br>
+While we have already established how our specific sums of squares generate triangular patterns, there are further fundamental properties at play. 
+
+The relationship flows in both directions: just as our sums are linked to triangular numbers, **the sum of any two consecutive triangular numbers forms a perfect square** ($T_{n} + T_{n-1} = n^2$). 
+By combining these geometric properties, we can extract two new observations about our sequences:
+
+#### 1. The $100k^2 + 26$ Identity
+If we group specific pairs of sums from our sequence—specifically, the sums of consecutive squares originating from base numbers symmetrically offset around multiples of 5—their combined total yields a clean equation.<br>
+For any integer $k$, adding these two distinct sums of two consecutive squares gives:
+
+$$(5k-3)^2 + (5k-2)^2 + (5k+2)^2 + (5k+3)^2 = 100k^2 + 26$$
+
+*(For example, with $k=1$, we evaluate the bases $x=2$ and $x=7$. Their respective sums of consecutive squares are $2^2+3^2=13$ and $7^2+8^2=113$. Adding them together gives $13 + 113 = 126$, which matches the formula $100(1^2) + 26$.)*
+
+#### 2. Connection to [OEIS A016802 sequence](https://oeis.org/A016802)
+As a natural extension of how squares and triangular numbers interact, there is a strict rule regarding specific pairs of even triangular numbers.<br>
+If we sum $T_{4n-1}$ and $T_{4n}$ (which are consecutive even triangular numbers), the result is always a perfect square strictly of the form $16n^2$. 
+
+* For $n=1$: $T_3 + T_4 = 6 + 10 = 16 \implies 16(1^2)$
+* For $n=2$: $T_7 + T_8 = 28 + 36 = 64 \implies 16(2^2)$
+* For $n=3$: $T_{11} + T_{12} = 66 + 78 = 144 \implies 16(3^2)$
+
+This progression ($16, 64, 144, 256 \dots$) maps directly to the **OEIS A016802** sequence, further demonstrating the deep, infinite arithmetic ties between sums of squares and triangular geometries.
