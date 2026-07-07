@@ -198,5 +198,5 @@ $$(2x + 1)² - 2m² = -1$$
 
 By substituting $A = 2x + 1$ and $B = m$, we arrive at **$A^2 - 2B^2 = -1$**. 
 
-This is the classic **negative Pell's equation**. It proves that the values of $x$ ($0, 3, 20, 119, \dots$) and the square roots of $s$ ($1, 5, 29, 169, \dots$) are not random; they are governed by the sequence of Pell numbers.<br>
+This is the classic **negative Pell's equation**. It proves that the values of $x$ ($0, 3, 20, 119, \dots$) and the square roots of $s$ ($1, 5, 29, 169, \dots$ as the [OEIS A001653 sequence](https://oeis.org/A001653)) are not random; they are governed by the sequence of Pell numbers.<br>
 Because Pell's equation solutions grow exponentially based on the silver ratio ($1 + \sqrt{2}$), these perfect squares become rare as the sequence progresses, yet there are infinitely many of them.
