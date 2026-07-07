@@ -67,7 +67,7 @@ A corollary of Fermat's theorem states that if a number can be expressed as the 
 
 Then for any sum of two consecutive squares ending in 13 (where $z$ is a triangular number from the A000217 sequence, **none of its prime factors will ever be congruent to 3 modulo 4** (i.e., of the form $4k + 3$).
 
-This guarantees that these numbers (if not primes) will never be divisible by [non Pythagorean](https://oeis.org/A002145) primes (such as $3, 7, 11, 19, 23, \dots$).<br>
+This guarantees that these numbers (if not primes) will never be divisible by [non Pythagorean primes](https://oeis.org/A002145) (such as $3, 7, 11, 19, 23, \dots$).<br>
 All of **the prime factors of these s** are strictly of the form $4k + 1$ as [Pythagorean primes](https://oeis.org/A002144) (such as $5, 13, 17, 29, 37, \dots$).
 
 ### Properties of the second column (numbers ending by 1)
