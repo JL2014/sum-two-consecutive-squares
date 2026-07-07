@@ -1,5 +1,7 @@
-# sum-two-consecutive-squares
-Sum of the squares of two consecutive numbers
+# Contributing
+Pull requests welcome. Don' hesitate to [start a conversation in Discussions](https://github.com/JL2014/sum-two-consecutive-squares/discussions/new/choose).
+
+# Sum of the squares of two consecutive numbers
 
 See [Fermat's theorem on sums of two squares](https://en.wikipedia.org/wiki/Fermat%27s_theorem_on_sums_of_two_squares), but here for specific case with x and y consecutive.<br>
 See [this conversation](https://groups.google.com/g/seqfan/c/Kq_n-Jj-qxk) on SeqFan mailing list.
