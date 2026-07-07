@@ -158,20 +158,20 @@ While we have already established how our specific sums of squares generate tria
 The relationship flows in both directions: just as our sums are linked to triangular numbers, **the sum of any two consecutive triangular numbers forms a perfect square** ($T_{n} + T_{n-1} = n^2$). 
 By combining these geometric properties, we can extract two new observations about our sequences:
 
-#### 1. The $100k^2 + 26$ identity
+#### 1. The $100k² + 26$ identity
 If we group specific pairs of sums from our sequence —specifically, the sums of consecutive squares originating from base numbers symmetrically offset around multiples of 5— their combined total yields a clean equation.<br>
 For any integer $k$, adding these two distinct sums of two consecutive squares gives:
 
-$$(5k-3)^2 + (5k-2)^2 + (5k+2)^2 + (5k+3)^2 = 100k^2 + 26$$
+$$(5k-3)² + (5k-2)² + (5k+2)² + (5k+3)² = 100k² + 26$$
 
-*(For example, with $k=1$, we evaluate the bases $x=2$ and $x=7$. Their respective sums of consecutive squares are $2^2+3^2=13$ and $7^2+8^2=113$. Adding them together gives $13 + 113 = 126$, which matches the formula $100(1^2) + 26$.)*
+*(For example, with $k=1$, we evaluate the bases $x=2$ and $x=7$. Their respective sums of consecutive squares are $2²+3²=13$ and $7²+8²=113$. Adding them together gives $13 + 113 = 126$, which matches the formula $100(1²) + 26$.)*
 
 #### 2. Connection to [OEIS A016802 sequence](https://oeis.org/A016802)
 As a natural extension of how squares and triangular numbers interact, there is a strict rule regarding specific pairs of even triangular numbers.<br>
-If we sum $T_{4n-1}$ and $T_{4n}$ (which are consecutive even triangular numbers), the result is always a perfect square strictly of the form $16n^2$. 
+If we sum $T_{4n-1}$ and $T_{4n}$ (which are consecutive even triangular numbers), the result is always a perfect square strictly of the form $16n²$. 
 
-* For $n=1$: $T_3 + T_4 = 6 + 10 = 16 \implies 16(1^2)$
-* For $n=2$: $T_7 + T_8 = 28 + 36 = 64 \implies 16(2^2)$
-* For $n=3$: $T_{11} + T_{12} = 66 + 78 = 144 \implies 16(3^2)$
+* For $n=1$: $T_3 + T_4 = 6 + 10 = 16 \implies 16(1²)$
+* For $n=2$: $T_7 + T_8 = 28 + 36 = 64 \implies 16(2²)$
+* For $n=3$: $T_{11} + T_{12} = 66 + 78 = 144 \implies 16(3²)$
 
 This progression ($16, 64, 144, 256 \dots$) maps directly to the **OEIS A016802** sequence, further demonstrating the deep, infinite arithmetic ties between sums of squares and triangular geometries.
