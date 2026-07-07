@@ -97,3 +97,18 @@ This $100k + 60$ progression creates a mirror image of the second column's prope
    **61, 21, 81, 41, 01** (and then back to 61)
 2. **Triangular number formula:** we can express this sequence using the $(k-1)$-th triangular number ($T_{k-1}$):
    $s_k = 100 T_{k-1} + 60k + 1$
+
+### Prime numbers of s and Bunyakovsky's conjecture
+
+If we expand our initial equation $s = x^2 + (x+1)^2$, we obtain the quadratic polynomial $s = 2x^2 + 2x + 1$. 
+
+By factoring it, we can rewrite the equation as $s = 2x(x+1) + 1$, or simply **$s = 2xy + 1$** (since $y = x+1$).<br>
+This factored form provides proof that $s$ is **always an odd number** ($2 \times \text{integer} + 1$), meaning 2 will never be a prime factor in this sequence.
+
+This quadratic polynomial satisfies the three strict conditions of **Bunyakovsky's conjecture**:
+* its leading coefficient is positive ($2 > 0$)
+* it is irreducible over the integers (it cannot be factored into two linear polynomials with rational coefficients)
+* the generated values share no common divisor greater than 1 for all $x$ (for example, the first two terms, 5 and 13, are strictly coprime)
+
+Because it meets all these criteria, Bunyakovsky's conjecture dictates that **this sequence should generate an infinite number of primes**.<br>
+While this remains one of the unproven problems in mathematics (no one has yet been able to prove that *any* polynomial of degree 2 or higher generates infinitely many primes), the mathematical structure of $s = 2xy + 1$ strongly implies that prime numbers will never stop appearing throughout this sequence.
