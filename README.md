@@ -66,10 +66,10 @@ By tracking the resulting pairs $(x', y')$, we observe an arithmetic progression
 
 | x  | y | s | s/5 | x′^2+y′^2 | (x′, y′) |
 |:-:|:-:|:-:|:-:|:-:|:-:|
-|1|2|5|1|0^2+1^2|(0, 1)|
-|6|7|85|17|1^2+4^2|(1, 4)|
-|11|12|265|53|2^2+7^2|(2, 7)|
-|16|17|545|109|3^2+10^2|(3, 10)|
+|1|2|5|1|0²+1²|(0, 1)|
+|6|7|85|17|1²+4²|(1, 4)|
+|11|12|265|53|2²+7²|(2, 7)|
+|16|17|545|109|3²+10²|(3, 10)|
 
 This proves that every term in the first column is linked to a specific Gaussian integer transition.<br>
 Specifically, each sum $s/5$ can be expressed as: $s/5 = k^2 + (3k+1)^2 = 10k^2 + 6k + 1$
