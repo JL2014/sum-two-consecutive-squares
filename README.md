@@ -55,6 +55,24 @@ For example:
 * $265 / 5 = 53 \implies 2^2 + 7^2$
 * $365 / 5 = 73 \implies 3^2 + 8^2$
 
+For the first column (where $s$ is a multiple of 5), the relationship $s/5 = x'^2 + y'^2$ reveals a linear structure (at least for the odd-numbered lines).<br>
+By tracking the resulting pairs $(x', y')$, we observe an arithmetic progression:
+
+* The values of $x'$ follow the sequence $k$ (for $k=0, 1, 2, 3 \dots$)
+* The values of $y'$ follow the sequence $3k + 1$
+
+| x  | y | s | s/5 | x′^2+y′^2 | (x′, y′) |
+|:-:|:-:|:-:|:-:|:-:|:-:|
+|1|2|5|1|0^2+1^2|(0, 1)|
+|6|7|85|17|1^2+4^2|(1, 4)|
+|11|12|265|53|2^2+7^2|(2, 7)|
+|16|17|545|109|3^2+10^2|(3, 10)|
+
+This proves that every term in the first column is linked to a specific Gaussian integer transition.<br>
+Specifically, each sum $s/5$ can be expressed as: $s/5 = k^2 + (3k+1)^2 = 10k^2 + 6k + 1$
+
+This confirms that the first column is not just a collection of multiples of 5, but a structured sequence of sums of squares where the base values $(x', y')$ evolve linearly. This regularity is a direct consequence of the Brahmagupta-Fibonacci identity applied to the prime factor 5.
+
 ### Connection to Fermat's theorem on sums of two squares (second column, ending by 13)
 
 By observing the equation $s = 100z + 13$, we can deduce a mathematical property regarding the prime factors of these specific numbers.
