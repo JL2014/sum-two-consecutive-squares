@@ -118,7 +118,7 @@ This $100k + 60$ progression creates a mirror image of the second column's prope
 
 * **The reversed 2-digit cycle:** because the difference adds $60$ to the tens and units digits (modulo 100) at each step, the last two digits follow an infinite 5-step cycle that is the **exact reverse** of the second column's cycle:
    **61, 21, 81, 41, 01** (and then back to 61)
-2. **Triangular number formula:** we can express this sequence using the $(k-1)$-th triangular number ($T_{k-1}$):
+* **Triangular number formula:** we can express this sequence using the $(k-1)$-th triangular number ($T_{k-1}$):
    $s_k = 100 T_{k-1} + 60k + 1$
 
 ### Prime numbers of s values and [Bunyakovsky's conjecture](https://en.wikipedia.org/wiki/Bunyakovsky_conjecture)
