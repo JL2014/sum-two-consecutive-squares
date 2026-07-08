@@ -39,7 +39,10 @@ We can observe :
   * even lines with $s$ ending by 1 (with gap of $100n + 40$ between them), a cycle ending by $41, 81, 21, 61, 01$
 * third column :
   * $s$ ending by 1 (with gap of $100n + 60$ between them), a cycle ending by $61, 21, 81, 41, 01$
-  * some square values as $25, 841, \dots$
+  * some square values as $25, 841, \dots$ with this relation :
+```math
+x=\frac{\sqrt{8s-4}-2}{4}
+```
 
 For $s$ ending by 13, if we use this form : $s = 100z + 13$, then the sequence of $z$ is :<br>
 ```
