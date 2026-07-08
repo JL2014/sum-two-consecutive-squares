@@ -172,7 +172,7 @@ $$(5k-3)² + (5k-2)² + (5k+2)² + (5k+3)² = 100k² + 26$$
 
 #### 2. Connection to [OEIS A016802 sequence](https://oeis.org/A016802)
 As a natural extension of how squares and triangular numbers interact, there is a strict rule regarding specific pairs of even triangular numbers.<br>
-If we sum $T_{4n-1}$ and $T_{4n}$ (which are consecutive even triangular numbers), the result is always a perfect square strictly of the form $16n²$. 
+If we sum $T_{4n-1}$ and $T_{4n}$ (which are consecutive even triangular numbers), the result is always a perfect square strictly of the form $16n²$ (perfect square). 
 
 * For $n=1$: $T_3 + T_4 = 6 + 10 = 16 \implies 16(1²)$
 * For $n=2$: $T_7 + T_8 = 28 + 36 = 64 \implies 16(2²)$
