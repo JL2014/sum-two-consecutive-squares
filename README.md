@@ -9,7 +9,7 @@ See [this conversation](https://groups.google.com/g/seqfan/c/Kq_n-Jj-qxk) on Seq
 For any $x >= 0$ and $y = x + 1$, $s = x² + y²$.<br>
 And also $s=\frac{(4x+2)²+4}{8}$
 
-Start with $x = 1$, then the first fifty terms of $s$, arranged in this way :<br>
+Start with $x = 0$, then the first fifty-one terms of $s$, arranged in this way :<br>
 <code>&nbsp;                   0² +  1² =    1,
 &nbsp;1² +  2² =    5,    2² +  3² =   <ins>13</ins>,
 &nbsp;3² +  4² =   25,    4² +  5² =   <ins>41</ins>,   5² +  6² =   <ins>61</ins>,
