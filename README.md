@@ -6,7 +6,8 @@ Pull requests welcome. Don't hesitate to [start a conversation in Discussions](h
 See [Fermat's theorem on sums of two squares](https://en.wikipedia.org/wiki/Fermat%27s_theorem_on_sums_of_two_squares), but here for specific case with x and y are consecutive.<br>
 See [this conversation](https://groups.google.com/g/seqfan/c/Kq_n-Jj-qxk) on SeqFan mailing list.
 
-For any $x > 0$ and $y = x + 1$, $s = x² + y²$.
+For any $x >= 0$ and $y = x + 1$, $s = x² + y²$.<br>
+And also for x > 0 : $s=\frac{(4x+2)²+4}{8}$
 
 Start with $x = 1$, then the first fifty terms of $s$, arranged in this way :<br>
 <code>&nbsp;                   0² +  1² =    1,
@@ -39,10 +40,7 @@ We can observe :
   * even lines with $s$ ending by 1 (with gap of $100n + 40$ between them), a cycle ending by $41, 81, 21, 61, 01$
 * third column :
   * $s$ ending by 1 (with gap of $100n + 60$ between them), a cycle ending by $61, 21, 81, 41, 01$
-  * some square values as $25, 841, \dots$ with this relation :
-```math
-x=\frac{\sqrt{8s-4}-2}{4}
-```
+  * some square values as $25, 841, \dots$ with this relation : $x=\frac{\sqrt{8s-4}-2}{4}$
 
 For $s$ ending by 13, if we use this form : $s = 100z + 13$, then the sequence of $z$ is :<br>
 ```
