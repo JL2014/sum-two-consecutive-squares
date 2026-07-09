@@ -156,7 +156,7 @@ This shared mathematical DNA allows us to deduce two properties:
    $$\frac{s_{col1}(k)}{5} = 1 + 4 \sum_{j=0}^{k-1} x_{col2}(j)$$
 * **inter-column synergy:** the columns in this system are not isolated patterns. The acceleration rate of the first column's growth is strictly governed by the linear progression of the second column's base numbers.
 
-### Combining squares and Triangular numbers (extended symmetries)
+### Combining squares and triangular numbers (extended symmetries)
 
 The Daniel's contribution highlighted additional layers of symmetry connecting this sequence to the broader world of triangular numbers.<br>
 While we have already established how our specific sums of squares generate triangular patterns, there are further fundamental properties at play. 
