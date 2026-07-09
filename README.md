@@ -190,6 +190,8 @@ Occasionally, the sum of two consecutive squares results in a perfect square ($s
 * $x=20 \implies 20² + 21² = 29² \implies s=841$
 * $x=119 \implies 119² + 120² = 169² \implies s=28561$
 
+Note: for $s$, we observe the [OEIS A008844 sequence](https://oeis.org/A008844).
+
 When this occurs, the equation $x² + (x + 1)² = m²$ geometrically describes a **Pythagorean triple where the legs are consecutive integers** (e.g., the famous 3-4-5 right triangle). 
 
 Through algebraic manipulation, we can rewrite our base equation $2x² + 2x + 1 = m²$ by multiplying by 2 and completing the square:
