@@ -7,7 +7,7 @@ See [Fermat's theorem on sums of two squares](https://en.wikipedia.org/wiki/Ferm
 See [this conversation](https://groups.google.com/g/seqfan/c/Kq_n-Jj-qxk) on SeqFan mailing list.
 
 For any $x >= 0$ and $y = x + 1$, $s = x² + y²$.<br>
-And also $s=\frac{(4x+2)²+4}{8}$
+And also $s = 2x^2 + 2x + 1=\frac{(4x+2)²+4}{8}$
 
 Start with $x = 0$, then the first fifty-one terms of $s$, arranged in this way (and prime numbers underlined) :<br>
 <code>&nbsp;                   0² +  1² =    1,
