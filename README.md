@@ -107,10 +107,12 @@ Then for any sum of two consecutive squares ending by 13 (where $z$ is a triangu
 This guarantees that these numbers (if not primes) will never be divisible by [non Pythagorean primes](https://oeis.org/A002145) (such as $3, 7, 11, 19, 23, \dots$).<br>
 All of <ins>**the prime factors of these s**</ins> are strictly of the form $4k + 1$ as [Pythagorean primes](https://oeis.org/A002144) (such as $5, 13, 17, 29, 37, \dots$).
 
+The values of $x$ for these terms are $2, 7, 12, 17, \dots$, which can be written as $x = 5k + 2$.
+
 ### Properties of the second column (numbers ending by 1)
 
 If we isolate the even-line terms from the second column that do not ending by 13 (such as $41, 181, 421, 761, 1201, \dots$), we can observe a predictable growth.<br>
-The sum becomes $s_k = 50k^2 + 90k + 41$.
+The sum becomes $s_k = 50k^2 + 90k + 41$.<br>
 The values of $x$ for these terms are $4, 9, 14, 19, \dots$, which can be written as $x = 5k + 4$.
 
 By calculating the difference between consecutive terms in this sub-sequence, we find that the gap grows by exactly $100n + 40$ (where $n$ is the step index: $140, 240, 340, 440, \dots$). 
