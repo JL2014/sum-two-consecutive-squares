@@ -64,7 +64,6 @@ For example:
 * $365 / 5 = 73 \implies 3^2 + 8^2$
 
 For the first column (where $s$ is a multiple of 5), the relationship $s/5 = x'^2 + y'^2$ reveals two linear structures (one for the odd-numbered lines and one for even-numbered lines).<br>
-Or in turn $s/5 = k^2 + (3k\pm1)^2$.<br>
 By tracking the resulting pairs $(x', y')$, we observe an arithmetic progression:
 
 * The values of $x'$ follow the sequence $k$ (for $k=0, 1, 2, 3 \dots$)
