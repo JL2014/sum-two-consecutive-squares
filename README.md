@@ -78,7 +78,8 @@ For odd-lines, by tracking the resulting pairs $(x', y')$, we observe an arithme
 
 This proves that every term in the first column is linked to a specific Gaussian integer transition.<br>
 Specifically, each sum $s/5$ can be expressed as: $s/5 = k^2 + (3k+1)^2 = 10k^2 + 6k + 1$.<br>
-Actually, no existing OEIS sequence for this polynomial, but the gap between $s/5$ values are form of $20k + 16$ = $4(5k + 4)$.
+The gap between $s/5$ values are form of $20k + 16$ = $4(5k + 4)$.
+Actually, no existing OEIS sequence for this polynomial.
 
 In the same way, for even-lines, by tracking the resulting pairs $(x', y')$, we observe an arithmetic progression:
 * The values of $x'$ follow the sequence $k$ (for $k=0, 1, 2, 3 \dots$)
