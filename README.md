@@ -56,12 +56,13 @@ According to the **Brahmagupta-Fibonacci identity**, the product —or perfect q
 Since 5 can be written as $1^2 + 2^2$, it follows a property: **dividing any number from this first column by 5 will always yield a quotient that is also a sum of two squares**.
 
 For example:
-*   $5 / 5 =  1 \implies 0^2 + 1^2$
-*  $25 / 5 =  5 \implies 1^2 + 2^2$
-*  $85 / 5 = 17 \implies 1^2 + 4^2$
-* $145 / 5 = 29 \implies 2^2 + 5^2$
-* $265 / 5 = 53 \implies 2^2 + 7^2$
-* $365 / 5 = 73 \implies 3^2 + 8^2$
+*   $5 / 5 =   1 \implies 0^2 +  1^2$
+*  $25 / 5 =   5 \implies 1^2 +  2^2$
+*  $85 / 5 =  17 \implies 1^2 +  4^2$
+* $145 / 5 =  29 \implies 2^2 +  5^2$
+* $265 / 5 =  53 \implies 2^2 +  7^2$
+* $365 / 5 =  73 \implies 3^2 +  8^2$
+* $545 / 5 = 109 \implies 3^2 + 10^2$
 
 For the first column (where $s$ is a multiple of 5), the relationship $s/5 = x'^2 + y'^2$ reveals two linear structures (one for the odd-numbered lines and one for even-numbered lines).<br>
 By tracking the resulting pairs $(x', y')$, we observe an arithmetic progression:
