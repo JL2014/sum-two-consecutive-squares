@@ -35,6 +35,7 @@ Start with $x = 0$, then the first fifty-one terms of $s$, arranged in this way 
 We can observe :
 * first column :
   * $s$ multiple of 5, and a [Brahmagupta–Fibonacci identity](https://en.wikipedia.org/wiki/Brahmagupta%E2%80%93Fibonacci_identity)
+  * the gap between values are 20 times of the [OEIS A080512 sequence](https://oeis.org/A080512)
 * second column :
   * odd lines with $s$ ending by 13 (at position $5j + 2$)
   * even lines with $s$ ending by 1 (with gap of $100n + 40$ between them), a cycle ending by $41, 81, 21, 61, 01$
